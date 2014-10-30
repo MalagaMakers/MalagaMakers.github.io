@@ -127,6 +127,10 @@ hr.small {
     background: none;
 }
 
+.bg-primary a {
+    color: #ffffff;
+}
+
 #menu-toggle {
     z-index: 1;
     position: fixed;
