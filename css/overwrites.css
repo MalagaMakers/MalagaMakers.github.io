@@ -1,0 +1,11 @@
+.bg-primary a {
+    text-decoration: underline;
+    color: #eef;
+}
+.bg-primary a.btn {
+    text-decoration: none;
+}
+
+.bg-primary a:hover {
+    color: #fff;
+}
