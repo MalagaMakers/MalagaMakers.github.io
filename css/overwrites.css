@@ -9,3 +9,6 @@
 .bg-primary a:hover {
     color: #fff;
 }
+.name{
+    white-space: nowrap;
+}
