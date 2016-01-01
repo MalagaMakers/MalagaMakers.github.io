@@ -21,9 +21,6 @@ body {
 }
 
 .text-vertical-center {
-    display: table-cell;
-    text-align: center;
-    vertical-align: middle;
 }
 
 .text-vertical-center h1 {
@@ -170,8 +167,17 @@ hr.small {
     -o-background-size: cover;
 }
 
-.header .text-vertical-center {
+.header .row {
     background-color: rgba(150,150,180,0.6);
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.text-vertical-center {
+	margin-top: 20%;
+    text-align: center;
+    vertical-align: middle;
 }
 
 /* About */

@@ -51,18 +51,25 @@
             <a href="#location">Location</a>
         </li>
 				<li>
-					<a href="/">Back to MalagaMakers</a>
+					<a href="index.html">Back to MalagaMakers</a>
 				</li>
     </ul>
 </nav>
 
 	<header id="top" class="header">
-		<div class="text-vertical-center">
-				<h1>MalagaMakers Ideathons</h1>
-				<br/>
-				<h2>Apping Málaga's life</h2>
-				<h1><a href="#whatis"><span class="spacing-top glyphicon glyphicon-circle-arrow-down"></span></a></h1>
-		</div>
+			<div class="row">
+				<div class="col-md-offset-1 col-md-4">
+					<a href="img/ideathons/ideathons_poster.pdf" alt="Download Ideathons poster" title="Donwload Ideathons poster" target="_blank"><img src="img/ideathons/ideathons_poster_mini.jpg"/></a>
+				</div>
+				<div class="col-md-7">
+				 <div class="text-vertical-center">
+						<h1>MalagaMakers Ideathons</h1>
+						<br/>
+						<h2>Apping Málaga's life</h2>
+						<h1><a href="#whatis"><span class="spacing-top glyphicon glyphicon-circle-arrow-down"></span></a></h1>
+					</div>
+				</div>
+			</div>
 	</header>
 
 	<section id="whatis" class="bg-primary">
@@ -256,7 +263,8 @@
     var mapOptions = {
       center: position,
       zoom: 17,
-      mapTypeId: google.maps.MapTypeId.ROADMAP
+      mapTypeId: google.maps.MapTypeId.ROADMAP,
+			scrollwheel: false
     }
     var map = new google.maps.Map(mapCanvas, mapOptions);
 		var marker = new google.maps.Marker({
