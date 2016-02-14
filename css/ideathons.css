@@ -285,3 +285,51 @@ hr.small {
 footer {
     padding: 100px 0;
 }
+
+.ideathon_result {
+	width: 30%;
+	display: inline-block;
+	vertical-align: top;
+	margin: 1em;
+	box-sizing: border-box;
+	border: 1px solid;
+	padding: 1em;
+	box-shadow: 5px 10px 20px 0px #eee;
+	margin-bottom: 3em;
+}
+
+.result_number:before {
+	display:inline-block;
+	content: '';
+	vertical-align: middle;
+	padding-top: 100%;
+}
+
+.result_number {
+	float: right;
+	font-size: 30px;
+	line-height: 30px;
+	font-style: italic;
+	background-color: #004c8b;
+	color: #fae236;
+	margin-left: 20px;
+	border-radius: 50px;
+	width: 50px;
+	height: 50px;
+	text-align: center;
+	font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.result_header {
+	font-size: 18px;
+}
+
+.result_content {
+	margin-bottom: 1em;
+}
+
+div.result_content:before {
+	margin-left: 1em;
+	content: '';
+	display: inline;
+}
