@@ -298,6 +298,20 @@ footer {
 	margin-bottom: 3em;
 }
 
+@media (max-width:700px) {
+	.ideathon_result {
+		display: block;
+		width: inherit;
+	}
+}
+
+@media (min-width: 701px) and (max-width: 1000px) {
+	.ideathon_result {
+		width: 45%;
+		display: inline-block;
+	}
+}
+
 .result_number:before {
 	display:inline-block;
 	content: '';
