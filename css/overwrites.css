@@ -1,14 +1,37 @@
-.bg-primary a {
-    text-decoration: underline;
-    color: #eef;
+body {
+color: #004c8b;
 }
+
+a {
+  color: #90a7cf;
+}
+
+a:hover {
+  color: #fae236;
+  text-decoration: none;
+}
+
+hr {
+  border-top-color: #fae236; 
+}
+
+section {
+	padding-top: 20px;
+	padding-bottom: 50px;
+}
+
+.bg-primary {
+  background-color: #004c8b;
+}
+
+.bg-primary a{
+text-decoration: underline;
+}
+
 .bg-primary a.btn {
     text-decoration: none;
 }
 
-.bg-primary a:hover {
-    color: #fff;
-}
 .name{
     white-space: nowrap;
 }
