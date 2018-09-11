@@ -49,3 +49,7 @@ img.founders {
   border-radius: 50%;
   overflow: hidden;
 }
+
+#menu-close {
+  text-indent: 0;
+}
